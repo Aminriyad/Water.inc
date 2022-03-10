@@ -1,139 +1,163 @@
-*{
-    padding: 0px;
-    margin : 0px;
-    border: 0px;
-    font-family:ui-sans-serif,system-ui,-apple-BlinkMacSystemFont,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue"
-    ,Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-}
-header{
-    box-sizing:border-box
-}
-h1{
-        margin: auto;
-        width: 80%;
-        border: 3px ;
-        margin-right: -359px;
-        margin-top: 42px;
-}
-.h1{
-        margin: auto;
-        width: 80%;
-        border: 3px ;
-        margin-right: -359px;
-        margin-top: 42px;
-}
-nav{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: black;
-    min-height: 20vh;
-    width: 147%;
-    margin:-3px;
-}
-.logo{
-    color: aliceblue;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 22px;
-    filter: brightness(100%);
-    margin:-7px;
-}
-.navlinks{
-    display: flex;
-    width: 94%;
-    justify-content: space-around;
-    color: aliceblue;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+@font-face {
+font-family: AstroSpace;
+src: url(/fonts/AstroSpace.ttf);
 }
 
-.navlinks a{
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-size: 47px;
-    font-weight: bold
-    color=white;
-    word-spacing: 10px;}
+body {
+margin: 0;
+padding: 0;
+font-family: "Montserrat", sans-serif;
+background-color: #212c3b;
+}
+button {
+    text-align: center;  
+    background-color:rgb(33, 133, 190);  
+    width: 200px;  
+    height: 200px;  
+    padding-top: 100px;
+    border-radius: 100%;  }
+    .center-h {
+        display: flex; /* or display:grid */
+        justify-content: center;
+    }
+    .center-v {
+        display: flex;
+        align-items: center;
+    }
+header {
+background-color: #141b25;
+}
+
+.main-nav {
+height: 90px;
+}
+
+.logo {
+color: white;
+line-height: 90px;
+font-size: 30px;
+font-weight: bold;
+text-decoration: none;
+margin-left: 30px;
+font-family: "AstroSpace", sans-serif;
+}
+
+.navlinks {
+list-style: none;
+float: right;
+line-height: 90px;
+margin: 0;
+padding: 0;
+}
 
 .navlinks li {
-    list-style:none;
-    word-spacing: 10px;
-    font-size: 40px;
+display: inline-block;
+margin: 0px 20px;
 }
-.burger div{
-width:25px;
-height:3px;
-margin: 5px;
-background-color: aliceblue;
-cursor:pointer;
-}
-ul a{
-    color: rgb(255, 255, 255);
-}
-.four {
-    font-size: 40px;
-}
-.box{
-    border: 5px solid blue;
-    width: 390px;
-    height: 300px;
-    background-color: red;
-}
-.btn1{
-    background-color:#1899de;
-    height: 110px; 
-};
 
-.inline{
-    display: inline;
+.navlinks li a {
+color: white;
+text-decoration: none;
+font-size: 18px;
+transition: all 0.3s linear 0s;
+text-transform: uppercase;
 }
-@media screen and (max-width:1024px) {
-    .nav-links{
-        display:flex;
-        width:60%;
-        justify-content: space-around;
-    }
-    .center{
-        margin: auto;
-        width: 80%;
-        border: 3px ;
-        margin-right: 11px;
-        margin-top: 42px;
+
+.navlinks li a:hover {
+color: #7ebcb9;
+padding-bottom: 7px;
+border-bottom: 2px solid #7ebcb9;
 }
+
+li a.contact {
+background-color: #00adb5;
+padding: 9px 20px;
+border-radius: 50px;
+transition: all 0.3s ease 0s;
+border-bottom: none;
 }
-@media only screen and (max-width : 784px){
-    body{
-        overflow-x: hdden;
-    }
-    .navlinks{
-        position:absolute;
-        right:0px;
-        height: 92vh;
-        top: 8vh;
-        background-color:rgb(0, 0, 0);
-        display: flex;
-        flex-direction:column;
-        align-items: center;
-        width:37%;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
+
+li a.contact:hover {
+background-color: #047e85;
+color: white;
+border-bottom: none;
 }
+
+#check {
+display: none;
 }
-.nav-links li{
-    opacity: 0;
+
+.menu-btn {
+font-size: 25px;
+color: white;
+float: right;
+line-height: 90px;
+margin-right: 40px;
+display: none;
+cursor: pointer;
 }
-.burger{
+
+@media (max-width: 800px) {
+.navlinks {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    transition: all 0.5s;
+    right: -100%;
+    background: #222831;
+}
+
+.navlinks li {
     display: block;
 }
-.nav-active{
-    transform: translatex(0%);
+
+.navlinks li a {
+    font-size: 20px;
 }
-@keyframes navlinkfade{
-    from{
-        opacity: 0;
-        transform:translate(50px)
-    }
-    to{
-        opacity: 1;
-        transform:translate(0px)
-    }
+
+.navlinks li a:hover {
+    border-bottom: none;
 }
+
+.menu-btn {
+    display: block;
+}
+
+#check:checked ~ .navlinks {
+    right: 0;
+}
+}
+
+@media (max-width: 360px) {
+.logo {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.menu-btn {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.menu-btn:focus {
+    color: blue;
+}
+}
+button {
+    text-align: center;  
+    background-color:rgb(33, 133, 190);  
+    width: 200px;  
+    height: 200px;  
+    padding-top: 100px;
+    border-radius: 100%;  }
+    .center-h {
+        display: flex; /* or display:grid */
+        justify-content: center;
+    }
+    .center-v {
+        display: flex;
+        align-items: center;
+    }

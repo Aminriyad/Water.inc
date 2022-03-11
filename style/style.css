@@ -4,7 +4,15 @@
 font-family: AstroSpace;
 src: url(/fonts/AstroSpace.ttf);
 }
-
+.clickme{
+        padding-bottom: 92px;
+        border-bottom-width: 0px;
+        margin-bottom: 0px;
+        padding-top: 81px;width: 201px;
+        font-size:30px;
+        font-family: Montserrat, sans-serif;
+        text-align:center
+    }
 body {
 margin: 0;
 padding: 0;
@@ -13,14 +21,15 @@ background-color: #212c3b;
 }
 button {
     text-align: center;  
-    background-color:rgb(0, 138, 145);  
+    background-color:linear-gradient(to left, red, blue );  
     width: 200px;  
     height: 200px;  
     padding-top: 100px;
-    border-radius: 100%;}
+    border-radius: 100%;
+    border: none}
     button:hover {
-        background-color:#047e85; 
-        transition-duration: 1s;}
+        background-color:linear-gradient(to left, red, blue ); 
+        transition-duration: 1s;} 
     
     .center-h {
         display: flex; /* or display:grid */
@@ -65,7 +74,7 @@ margin: 0px 20px;
 color: white;
 text-decoration: none;
 font-size: 18px;
-transition: all 0.3s linear 0s;
+transition: all 0.1s linear 0s;
 text-transform: uppercase;
 }
 

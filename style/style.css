@@ -12,10 +12,12 @@ src: url(/fonts/AstroSpace.ttf);
         padding-bottom: 92px;
         border-bottom-width: 0px;
         margin-bottom: 0px;
-        padding-top: 81px;width: 201px;
+        padding-top: 81px;
+        width: 201px;
         font-size:30px;
         font-family: Montserrat, sans-serif;
-        text-align:center
+        text-align:center;
+        border:none;
     }
 body {
 margin: 0;
@@ -23,18 +25,7 @@ padding: 0;
 font-family: "Montserrat", sans-serif;
 background-color: #212c3b;
 }
-button {
-    text-align: center;  
-    background-color:linear-gradient(to left, red, blue );  
-    width: 200px;  
-    height: 200px;  
-    padding-top: 100px;
-    border-radius: 100%;
-    border: none}
-    button:hover {
-        background-color:linear-gradient(to left, red, blue ); 
-        transition-duration: 1s;} 
-    
+
     .center-h {
         display: flex; /* or display:grid */
         justify-content: center;
@@ -127,7 +118,7 @@ cursor: pointer;
     background: #222831;
 }
 .logo {
-    letter-spacing: 1
+    margin-left: 37%;
 }
 .navlinks li {
     display: block;
@@ -149,11 +140,76 @@ cursor: pointer;
     right: 0;
 }
 }
-
+@media (max-width: 626px) {
+    .navlinks {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        transition: all 0.5s;
+        right: -100%;
+        background: #222831;
+    }
+    .logo {
+        align-items: center;
+    }
+    .navlinks li {
+        display: block;
+    }
+    
+    .navlinks li a {
+        font-size: 20px;
+    }
+    
+    .navlinks li a:hover {
+        border-bottom: none;
+    }
+    
+    .menu-btn {
+        display: block;
+    }
+    
+    #check:checked ~ .navlinks {
+        right: 0;
+    }
+    }
+    @media (max-width: 415px) {
+        .navlinks {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            text-align: center;
+            transition: all 0.5s;
+            right: -100%;
+            background: #222831;
+        }
+        .logo {
+            margin-left: 24%;
+        }
+        .navlinks li {
+            display: block;
+        }
+        
+        .navlinks li a {
+            font-size: 20px;
+        }
+        
+        .navlinks li a:hover {
+            border-bottom: none;
+        }
+        
+        .menu-btn {
+            display: block;
+        }
+        
+        #check:checked ~ .navlinks {
+            right: 0;
+        }
+        }
 @media (max-width: 360px) {
 .logo {
-    margin-left: 10px;
     font-size: 25px;
+    margin-left: 27%;
 }
 .menu-btn {
     margin-right: 10px;

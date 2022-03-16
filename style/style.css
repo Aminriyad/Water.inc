@@ -125,7 +125,9 @@ cursor: pointer;
     right: -100%;
     background: #222831;
 }
-
+.logo {
+    letter-spacing: 1
+}
 .navlinks li {
     display: block;
 }

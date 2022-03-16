@@ -4,6 +4,9 @@
 font-family: AstroSpace;
 src: url(/fonts/AstroSpace.ttf);
 }
+.wtrdriver{
+    font-family: "Montserrat", sans-serif;
+}
 .clickme{
         padding-bottom: 92px;
         border-bottom-width: 0px;
@@ -54,7 +57,7 @@ font-size: 30px;
 font-weight: bold;
 text-decoration: none;
 margin-left: 30px;
-font-family: "AstroSpace", sans-serif;
+font-family: Montserrat, sans-serif
 }
 
 .navlinks {

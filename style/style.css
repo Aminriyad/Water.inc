@@ -380,7 +380,7 @@ cursor: pointer;
         
         #check:checked ~ .navlinks {
             right: 0;
-            position: relative;
+            position: absolute;
             z-index: 1;
         }
         

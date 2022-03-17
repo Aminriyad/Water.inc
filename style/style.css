@@ -5,6 +5,11 @@
 font-family: AstroSpace;
 src: url(/fonts/AstroSpace.ttf);
 }
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
 body {
     margin: 0;
     padding: 0;

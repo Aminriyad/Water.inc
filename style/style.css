@@ -277,7 +277,7 @@ cursor: pointer;
             text-align: center;
             margin: 0.625rem;
         }
-        .hero-title {
+        .titleline {
             font-size: 29px;
         font-weight: 600;
         margin-bottom: 0;
@@ -285,7 +285,9 @@ cursor: pointer;
         margin-left: 11.3%;
         margin-top: 3%;
         display: block;
-        margin-bottom: 6%;}
+        margin-top: -36px;
+        margin-bottom: 1.9rem;
+        margin-left: 0px;}
         .hero-button {
             background-color: black;
             color: white;
@@ -301,6 +303,32 @@ cursor: pointer;
             height: 3rem;
             margin-left: 9%;
             border-radius: 20px;
+        }
+        .searchbar{
+            display: flex; 
+            align-items: center; 
+            justify-content: space-evenly;
+            background-color: rgb(44, 48, 50); 
+            border-radius: 20px; 
+            --darkreader-inline-bgcolor:#393e40; 
+            width: 371px; 
+            margin-left: 11px;
+        }
+        .locationimg{
+            height: 23px; 
+            width: 17px;
+        }
+        .searcher{
+            height: 30px;
+            width:266px;
+            outline: none;
+            border: none; 
+            font-size:1.4rem; 
+            background:none
+        }
+        .searchimg{
+            height: 50px; 
+            width: 20px;
         }
         }
         .hero-button:hover {

@@ -4,11 +4,86 @@
 font-family: AstroSpace;
 src: url(/fonts/AstroSpace.ttf);
 }
+body {
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    position: relative;
+    width: 24rem;
+    height: 36rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 480%;
+    height: 100%;
+    background: url(https://www.beveragedaily.com/var/wrbm_gb_food_pharma/storage/images/_aliases/wrbm_large/publications/food-beverage-nutrition/beveragedaily.com/article/2019/05/31/bottled-water-packaging-uses-59-less-pet-plastic-than-other-beverages/9522518-1-eng-GB/Bottled-water-packaging-uses-59-less-PET-plastic-than-other-beverages.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(60%);
+}
+.hero-content {
+    position: relative;
+    font-family: "Monserrat", sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0.625rem;
+}
+.hero-title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.hero-subtitle {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+.hero-button {
+    background-color: #ae2d59;
+    color: white;
+    border: 1px solid #cb376a;
+    margin-top: 5rem;
+    padding: 0.9375rem1.875rem;
+    font-family: "Monserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+.hero-button:hover {
+    background-color: #cb376a;
+    border: 1px solid #db7598;
+}
 .wtrdriver{
     font-family: "Montserrat", sans-serif;
     word-spacing: -8;
 }
-.clickme{
+.clicke{
+        padding-bottom: 92px;
+        border-bottom-width: 0px;
+        margin-bottom: 0px;
+        padding-top: 81px;
+        width: 201px;
+        font-size:30px;
+        font-family: Montserrat, sans-serif;
+        text-align:center;
+        border:none;
+    }
+    .hero-img {
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .hero-img button{
         padding-bottom: 92px;
         border-bottom-width: 0px;
         margin-bottom: 0px;
@@ -174,6 +249,64 @@ cursor: pointer;
     }
     }
     @media (max-width: 415px) {
+        .hero {
+            position: relative;
+            width: 24rem;
+            height: 26rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 480%;
+            height: 100%;
+            background: url(https://www.beveragedaily.com/var/wrbm_gb_food_pharma/storage/images/_aliases/wrbm_large/publications/food-beverage-nutrition/beveragedaily.com/article/2019/05/31/bottled-water-packaging-uses-59-less-pet-plastic-than-other-beverages/9522518-1-eng-GB/Bottled-water-packaging-uses-59-less-PET-plastic-than-other-beverages.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            filter: brightness(60%);
+        }
+        .hero-content {
+            position: relative;
+            font-family: "Monserrat", sans-serif;
+            color: white;
+            text-align: center;
+            margin: 0.625rem;
+        }
+        .hero-title {
+            font-size: 29px;
+        font-weight: 600;
+        margin-bottom: 0;
+        font-family: Monserrat, sans-serif;
+        margin-left: 11.3%;
+        margin-top: 3%;
+        display: block;
+        margin-bottom: 6%;}
+        .hero-button {
+            background-color: black;
+            color: white;
+            border: 1px solid grey;
+            margin-top: 7rem;
+            font-family: "Monserrat", sans-serif;
+            font-size: 1.125rem;
+            font-weight: 200;
+            cursor: pointer;
+            margin-top: 0px;
+            margin-bottom: 112px;
+            width: 18rem;
+            height: 3rem;
+            margin-left: 9%;
+            border-radius: 20px;
+        }
+        }
+        .hero-button:hover {
+            background-color: red;
+            border: 1px solid red;
+        }
         .navlinks {
             position: fixed;
             width: 100%;
@@ -205,7 +338,7 @@ cursor: pointer;
         #check:checked ~ .navlinks {
             right: 0;
         }
-        }
+        
 @media (max-width: 360px) {
 .logo {
     font-size: 25px;
@@ -220,13 +353,6 @@ cursor: pointer;
     color: blue;
 }
 }
-button {
-    text-align: center;  
-    background-color:rgb(0, 138, 145);  
-    width: 200px;  
-    height: 200px;  
-    padding-top: 100px;
-    border-radius: 100%;  }
     .center-h {
         display: flex; /* or display:grid */
         justify-content: center;

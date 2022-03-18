@@ -324,10 +324,12 @@ cursor: pointer;
             --darkreader-inline-bgcolor:#393e40;
     width: 364px;
     margin-left: 0px;
+    border-radius: 50px;
         }
         .locationimg{
             height: 23px; 
             width: 17px;
+            margin-left:4px;
         }
         .searcher{
             height: 30px;

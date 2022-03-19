@@ -273,7 +273,7 @@ cursor: pointer;
         .box{
             height: 150px;
             width: 150px;
-        background-color: rgb(83, 135, 194);
+        background-color: rgb(255, 255, 255);
             border-radius: 20px;
             margin-bottom: 3px;
             margin-top:60px
@@ -281,7 +281,7 @@ cursor: pointer;
         .topbox{
             height: 150px;
             width: 150px;
-        background-color: rgb(83, 135, 194);
+        background-color: rgb(255, 255, 255);
             border-radius: 20px;
             margin-bottom: 3px;
             margin-top:0px
@@ -316,10 +316,10 @@ cursor: pointer;
             margin: 0.625rem;
         }
         .titleline {
-            font-size: 29px;
+            font-size: 32px;
         font-weight: 600;
         margin-bottom: 0;
-        font-family: Monserrat, sans-serif;
+        font-family: "Montserrat", sans-serif;
         margin-left: 11.3%;
         margin-top: 3%;
         display: block;
@@ -347,7 +347,7 @@ cursor: pointer;
             display: flex; 
             align-items: center; 
             justify-content: space-evenly;
-            background-color: rgb(44, 48, 50); 
+            background-color: #181818; 
             border-radius: 20px; 
             --darkreader-inline-bgcolor:#393e40;
     width: 364px;
@@ -384,7 +384,7 @@ cursor: pointer;
             text-align: center;
             transition: all 0.5s;
             right: -100%;
-            background: #222831;
+            background: #181818;
         }
         .logo {
             margin-left: 22%;

@@ -10,6 +10,7 @@ src: url(/fonts/AstroSpace.ttf);
     margin: 0;
     border: 0;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -260,6 +261,32 @@ cursor: pointer;
     }
     }
     @media (max-width: 415px) {
+        .boxspacing{
+            display: flex; 
+            justify-content: space-around;
+        }
+        .size{
+            width: 150px;  
+            border-radius: 20px;
+            height: 150px;
+        }
+        .box{
+            height: 150px;
+            width: 150px;
+        background-color: rgb(83, 135, 194);
+            border-radius: 20px;
+            margin-bottom: 3px;
+            margin-top:60px
+        }
+        .topbox{
+            height: 150px;
+            width: 150px;
+        background-color: rgb(83, 135, 194);
+            border-radius: 20px;
+            margin-bottom: 3px;
+            margin-top:0px
+        }
+
         .hero {
             position: relative;
             width: 100%;
@@ -391,6 +418,7 @@ cursor: pointer;
             position: absolute;
             z-index: 1;
         }
+
         
 @media (max-width: 360px) {
 .logo {

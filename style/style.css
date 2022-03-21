@@ -274,6 +274,10 @@ cursor: pointer;
             height: 150px;
             box-shadow: 5px 3px 10px grey;
         }
+        .onefifty{
+        height: 150px;
+        width: 150px;
+        }
         .box{
             height: 150px;
             width: 150px;
@@ -356,8 +360,37 @@ cursor: pointer;
             border-radius: 20px; 
             --darkreader-inline-bgcolor:#393e40;
     width: 364px;
-    margin-left: 0px;
+    margin-left: 16px;
     border-radius: 50px;
+    
+        }
+
+        .block{
+            display: flex;
+            justify-content:space-around;
+        }
+        .firstline{
+            display: block;
+            flex: start; 
+            margin-left: 4%;
+            font-size:26px;
+            font-weight: bold;
+        }
+        .secondline{
+            display: block; 
+            flex: start;             
+            margin-left: 4%;
+            font-size:26px;
+            font-weight: bold;
+        }
+        .thirdline{
+            display: block; 
+            flex: start; 
+            margin-left: 4%;
+            font-size:24px;
+            font-weight: bold;    
+            margin-bottom: -18px;
+            font-size: 25px;
         }
         .locationimg{
             height: 23px; 
@@ -392,6 +425,20 @@ cursor: pointer;
             transition: all 0.5s;
             right: -100%;
             background: #181818;
+            top: 88px;height: 260rem;
+        }
+        .toplogo img{
+            width:218px;
+            margin-top: 11px;
+            margin-left: 47px;
+        }
+        main{
+            background-color:#181818;
+            color:white;
+            font-family: Montserrat, sans-serif;
+        }
+        .toplogo{
+            justify-content:center; display:flex
         }
         .logo {
             margin-left: 22%;

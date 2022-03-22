@@ -10,13 +10,17 @@ src: url(/fonts/AstroSpace.ttf);
     margin: 0;
     border: 0;
 }
-
+.locationimg{
+    width: 20px;
+    height: 26px;
+}
 body {
     margin: 0;
     padding: 0;
+    background-color: #181818
 }
 html{
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
 }
 .hero {
     position: relative;
@@ -31,9 +35,9 @@ html{
     position: absolute;
     top: 0;
     left: 0;
-    width: 480%;
+    width: 90rem;
     height: 100%;
-    background: url(https://www.beveragedaily.com/var/wrbm_gb_food_pharma/storage/images/_aliases/wrbm_large/publications/food-beverage-nutrition/beveragedaily.com/article/2019/05/31/bottled-water-packaging-uses-59-less-pet-plastic-than-other-beverages/9522518-1-eng-GB/Bottled-water-packaging-uses-59-less-PET-plastic-than-other-beverages.jpg);
+    background: url(https://f1.media.brightcove.com/8/694922499001/694922499001_5300180696001_5300150426001-vs.jpg?pubId=694922499001&videoId=5300150426001);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -45,6 +49,43 @@ html{
     color: white;
     text-align: center;
     margin: 0.625rem;
+    left: 32rem;
+    font-size:1rem;
+    display:inline-block
+}
+.titleline {
+    font-size: 40px;
+font-weight: bold;
+margin-bottom: 0;
+font-family: "Montserrat", sans-serif;
+margin-left: 11.3%;
+margin-top: 3%;
+display: block;
+margin-top: -36px;
+margin-bottom: 22px;
+margin-left: 0px;}
+.searchbar{
+margin-left: 16px;
+display: flex; 
+align-items: center; 
+justify-content: space-evenly;
+background-color: #181818; 
+border-radius: 20px; 
+--darkreader-inline-bgcolor:#393e40;
+width: 33rem;
+border-radius: 50px;}
+.searcher{
+    border: 12px #181818 solid;
+    background: #181818;
+    height: 27px;
+    width: 18rem;
+    outline: none;
+    border: none; 
+    font-size:1.4rem; 
+    background:none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
 .hero-title {
     font-size: 3rem;
@@ -439,6 +480,33 @@ cursor: pointer;
         }
         .toplogo{
             justify-content:center; display:flex
+        }
+        .footer{
+            margin-bottom:5px;color: grey
+        }
+        .footertop{
+            margin-bottom:5px;
+            color: white;
+        }
+        .socialmedia{
+            margin-bottom:6px;
+            color: white;
+        }
+        .facebook{
+            padding-right: 16px;
+        }
+        .twitter{
+            height:24px; 
+            width:24px ;
+            padding-right: 16px;
+        }
+        .instagram{
+            height:24px; 
+            width:24px
+        }
+        .center{
+            display:flex;
+            justify-content:center;
         }
         .logo {
             margin-left: 22%;

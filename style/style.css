@@ -14,6 +14,10 @@ html{
     margin: 0;
     padding: 0;
 }
+.faqs{
+    display: grid;
+    justify-content: center;
+}
 .faq_heading {
     position: relative;
     }
@@ -27,14 +31,15 @@ html{
     }
     .faq_item {
     border: 1px solid #2c3e50;
-    width: 85rem;
+    width: 80vw;
     padding: 1rem;
     border-radius: 0.5rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
-    cursor: pointer;
     margin-bottom: 20px;
-    margin-left: 21px;
+    cursor: pointer;
+    margin-left: 1px;
+    border-left-width: 1px;
+    margin-right:1px;
     }
     
     .faq_title {
@@ -46,6 +51,8 @@ html{
     font-weight: 100;
     font-size: 0.95rem;
     color: #c9c9c9;
+    display:grid;
+    justify-content:center;
     }
 .firstline{margin-left: 66px;
     background: lnear-gradient(#e66465, #9198e5);
@@ -129,11 +136,13 @@ margin-left: 0px;}
 .searchbar{
 display: flex; 
 align-items: center; 
-justify-content: space-around;
+justify-content: space-around
+;
 background-color: #181818; 
 border-radius: 20px; 
 --darkreader-inline-bgcolor:#393e40;
 border-radius: 50px;}
+
 .searcher{
     border: 12px #181818 solid;
     background: #181818;
@@ -297,7 +306,7 @@ margin: 0px 20px;
 color: white;
 text-decoration: none;
 font-size: 18px;
-transition: all 0.1s linear 0s;
+transition: 250ms ease-in-out;
 text-transform: uppercase;
 }
 
@@ -352,16 +361,17 @@ display: inline-block;
 width: 270px;
 }
 .faq_item {
-border: 1px solid #2c3e50;
-width: 85rem;
-padding: 1rem;
-border-radius: 0.5rem;
-margin-top: 1rem;
-margin-bottom: 1rem;
-cursor: pointer;
-margin-bottom: 20px;
-margin-left: 21px;
-}
+    border: 1px solid #2c3e50;
+    width: 80vw;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-left: 1px;
+    border-left-width: 1px;
+    margin-right:1px;
+    }
 
 .faq_title {
 font-weight: normal;
@@ -734,16 +744,16 @@ color: transparent;
 }
 
 .faq_item {
-  border: 1px solid #2c3e50;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  cursor: pointer;
-  margin-bottom: 20px;
-  width: 300px;
-  margin-left: 21px;
-}
+    border: 1px solid #2c3e50;
+    width: 85rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 21px;
+    }
 
 .faq_title {
   font-weight: normal;

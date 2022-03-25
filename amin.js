@@ -1,41 +1,16 @@
-const accordionBtns = document.querySelectorAll(".accordion__title");
+window.onscroll = function() {myFunction()};
 
-accordionBtns.forEach((button) => {
-  button.addEventListener("click", (event) => {
-    let accCollapse = button.nextElementSibling;
+// Get the navbar
+var navbar = document.getElementById("main-nav");
 
-    if (!button.classList.contains("collapsing")) {
-      // open accordion item
-      if (!button.classList.contains("open")) {
-        accCollapse.style.display = "block";
-        let accHeight = accCollapse.clientHeight;
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
 
-        setTimeout(() => {
-          accCollapse.style.height = accHeight + "px";
-          accCollapse.style.display = "";
-        }, 1);
-
-        accCollapse.classList = "accordion__collapse collapsing";
-
-        setTimeout(() => {
-          accCollapse.classList = "accordion__collapse collapse open";
-        }, 300);
-      }
-      //close accordion item
-      else {
-        accCollapse.classList = "accordion__collapse collapsing";
-
-        setTimeout(() => {
-          accCollapse.style.height = "0px";
-        }, 1);
-
-        setTimeout(() => {
-          accCollapse.classList = "accordion__collapse collapse";
-          accCollapse.style.height = "";
-        }, 300);
-      }
-
-      button.classList.toggle("open");
-    }
-  });
-});
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}

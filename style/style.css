@@ -9,6 +9,20 @@
   margin: 0;
   border: 0;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.cart{
+    width: 32px;
+top: 4.4%;
+position: fixed;
+right: 7%;
+}
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;}
 html {
   margin: 0;
   padding: 0;
@@ -43,14 +57,15 @@ html {
   font-weight: normal;
   display: grid;
   justify-content: center;
-  padding-bottom: 2%;
+  
 
 }
 
 .faq_content {
-  font-weight: 100;
-  font-size: 0.95rem;
-  color: #c9c9c9;
+    font-weight: 100;
+    font-size: 0.95rem;
+    color: #c9c9c9;
+    padding-top: 20px;
   display: grid;
   justify-content: center;
 }
@@ -278,8 +293,12 @@ header {
 }
 
 .main-nav {
-  height: 90px;
-  background-color: #0c141c;
+    height: 90px;
+    background-color: #0c141c;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 .logo {
@@ -341,9 +360,10 @@ li a.contact:hover {
 .menu-btn {
   font-size: 25px;
   color: white;
-  float: right;
+  float: left;
   line-height: 90px;
-  margin-right: 40px;
+  left: 7%;
+  position:fixed;
   display: none;
   cursor: pointer;
 }
@@ -379,14 +399,15 @@ li a.contact:hover {
   font-weight: normal;
   display: grid;
     justify-content: center;
-    padding-bottom: 2%;
+   
 
 }
 
 .faq_content {
-  font-weight: 100;
-  font-size: 0.95rem;
-  color: #c9c9c9;
+    font-weight: 100;
+    font-size: 0.95rem;
+    color: #c9c9c9;
+    padding-top: 20px;
 }
 
 /* about */
@@ -475,6 +496,14 @@ li a.contact:hover {
   .name {
     font-size: 25px;
   }
+  .main-nav {
+    height: 90px;
+    background-color: #0c141c;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
   .boxspacing {
     display: flex;
     justify-content: space-around;
@@ -639,7 +668,7 @@ li a.contact:hover {
   height: 11rem;
   text-align: center;
   transition: all 0.5s;
-  right: -100%;
+  left: -100%;
   background: #181818;
   top: 88px;
   height: 260rem;
@@ -647,7 +676,7 @@ li a.contact:hover {
 .toplogo img {
   width: 218px;
   margin-top: 11px;
-  margin-left: 47px;
+  margin-left: -4%;
 }
 main {
   background-color: #181818;
@@ -716,7 +745,7 @@ main {
 }
 
 #check:checked ~ .navlinks {
-  right: 0;
+  left: 0;
   position: absolute;
   z-index: 1;
 }
@@ -764,7 +793,6 @@ main {
   font-weight: normal;
   display: grid;
     justify-content: center;
-    padding-bottom: 2%;
 
 }
 
@@ -773,6 +801,10 @@ main {
   font-weight: 100;
   font-size: 0.95rem;
   color: #c9c9c9;
+  font-weight: 100;
+font-size: 0.95rem;
+color: #c9c9c9;
+padding-top: 20px;
 }
 
 /* about */

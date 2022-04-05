@@ -70,34 +70,30 @@ html {
   justify-content: center;
 }
 .firstline {
-  margin-left: 66px;
-  background: lnear-gradient(#e66465, #9198e5);
-  border-radius: 13px;
-  width: 32px;
-  font-size: 42px;
-  padding: 10px 22px 12px 17px;
-  box-shadow: 1px 1px 6px grey;
+  display: block;
+  flex: start;
+  font-size: 26px;
   font-weight: bold;
+  width: 221px;
+  padding-left: 22px;
+  margin-left: 8vw;
 }
 .secondline {
-  margin-left: 66px;
-  background: lnear-gradient(#e66465, #9198e5);
-  border-radius: 13px;
-  width: 32px;
-  font-size: 42px;
-  padding: 10px 22px 12px 17px;
-  box-shadow: 1px 1px 6px grey;
+  display: block;
+  flex: start;
+  font-size: 29px;
   font-weight: bold;
+  width: 207%;
+  padding-left: 22px;
+  margin-left: 3vw;
 }
 .thirdline {
-  margin-left: 66px;
-  background: lnear-gradient(#e66465, #9198e5);
-  border-radius: 13px;
-  width: 32px;
-  font-size: 42px;
-  padding: 10px 22px 12px 17px;
-  box-shadow: 1px 1px 6px grey;
+  display: block;
+  flex: start;
+  font-size: 31px;
   font-weight: bold;
+  padding-left: 22px;
+  margin-left: 3vw;
 }
 .locationimg {
   width: 20px;
@@ -210,25 +206,27 @@ html {
   box-shadow: 5px 3px 10px grey;
 }
 .box {
-  height: 28rem;
-  width: 37rem;
-  background-color: rgb(255, 255, 255);
-  border-radius: 15px;
-  margin-bottom: 3px;
-  margin-top: 60px;
-  box-shadow: 5px 3px 10px grey;
+  height: 32vw;
+width: 33vw;
+background-color: rgb(255, 255, 255);
+border-radius: 15px;
+margin-bottom: 5%;
+margin-right: 4vw;
+margin-top:60px;
+box-shadow: 5px 3px 10px grey;
 }
+
 .topbox {
-  height: 28rem;
-  width: 37rem;
-  background-color: rgb(255, 255, 255);
-  border-radius: 20px;
-  margin-bottom: 3px;
-  margin-top: 0px;
+  height: 32vw;
+width: 33vw;
+background-color: rgb(255, 255, 255);
+border-radius: 20px;
+margin-bottom: 5%;
+margin-right: 4vw;
 }
 .size {
-  height: 28rem;
-  width: 37rem;
+  height: 32vw;
+width: 33vw;
   border-radius: 19px;
   box-shadow: 5px 3px 10px grey;
 }
@@ -524,21 +522,22 @@ right: 7%;
     width: 150px;
   }
   .box {
-    height: 150px;
-    width: 150px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    margin-bottom: 3px;
-    margin-top: 60px;
-    box-shadow: 5px 3px 10px grey;
+    height: 32vw;
+width: 33vw;
+background-color: rgb(255, 255, 255);
+border-radius: 15px;
+margin-bottom: 5%;
+margin-right: 4vw;
+margin-top:60px;
+box-shadow: 5px 3px 10px grey;
   }
   .topbox {
-    height: 150px;
-    width: 150px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin-bottom: 3px;
-    margin-top: 0px;
+    height: 32vw;
+width: 33vw;
+background-color: rgb(255, 255, 255);
+border-radius: 20px;
+margin-bottom: 5%;
+margin-right: 4vw;
   }
 
   .hero {
@@ -619,28 +618,28 @@ right: 7%;
   .firstline {
     display: block;
     flex: start;
-    margin-left: 4%;
     font-size: 26px;
     font-weight: bold;
     width: 221px;
+    padding-left: 22px;
+    margin-left: 8vw;
   }
   .secondline {
     display: block;
-    flex: start;
-    margin-left: 4%;
-    font-size: 26px;
-    font-weight: bold;
-    width: 280px;
+flex: start;
+font-size: 29px;
+font-weight: bold;
+width: 207%;
+padding-left: 22px;
+margin-left: 3vw;
   }
   .thirdline {
     display: block;
     flex: start;
-    margin-left: 4%;
-    font-size: 24px;
+    font-size: 31px;
     font-weight: bold;
-    margin-bottom: -18px;
-    font-size: 25px;
-    width: 294px;
+    padding-left: 22px;
+    margin-left: 3vw;
   }
   .locationimg {
     height: 23px;

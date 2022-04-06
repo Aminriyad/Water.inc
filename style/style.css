@@ -9,24 +9,26 @@
   margin: 0;
   border: 0;
 }
-html, body{
-  MAX-WIDTH: 100%;
-  overflow: hidden;
+html,
+body {
+  max-width: 100%;
+  overflow: hidde
 }
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-.cart{
-    width: 32px;
-top: 3.4%;
-position: fixed;
-right: 7%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 60px;}
+.cart {
+  width: 32px;
+  top: 3.4%;
+  position: fixed;
+  right: 7%;
+}
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
 html {
   margin: 0;
   padding: 0;
@@ -50,11 +52,11 @@ html {
   width: 80vw;
   border-radius: 0.5rem;
   cursor: pointer;
-  display:grid;
+  display: grid;
   justify-content: center;
   border: 1px solid #2c3e50;
-    padding: 1rem;
-    margin: 2% 1% 1% 1%;
+  padding: 1rem;
+  margin: 2% 1% 1% 1%;
 }
 
 .faq_title {
@@ -62,14 +64,13 @@ html {
   display: grid;
   justify-content: center;
   outline: none;
-
 }
 
 .faq_content {
-    font-weight: 100;
-    font-size: 0.95rem;
-    color: #c9c9c9;
-    padding-top: 20px;
+  font-weight: 100;
+  font-size: 0.95rem;
+  color: #c9c9c9;
+  padding-top: 20px;
   display: grid;
   justify-content: center;
 }
@@ -100,8 +101,8 @@ html {
   margin-left: 3vw;
 }
 .locationimg {
-  width: 20px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
 }
 body {
   margin: 0;
@@ -155,11 +156,18 @@ html {
 .searchbar {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #181818;
-  border-radius: 20px;
+
   --darkreader-inline-bgcolor: #393e40;
   border-radius: 50px;
+  height: 3rem;
+  border-left: 31px solid #181818;
+  border-right: 31px solid #181818;
+}
+.searchimg {
+  height: 20px;
+  width: 20px;
 }
 
 .searcher {
@@ -190,7 +198,7 @@ html {
   color: white;
   border: 1px solid #cb376a;
   margin-top: 5rem;
-  padding: 0.9375rem1.875rem;
+  padding: 0.9375rem;
   font-family: "Monserrat", sans-serif;
   font-size: 1.125rem;
   font-weight: 200;
@@ -211,26 +219,26 @@ html {
 }
 .box {
   height: 32vw;
-width: 33vw;
-background-color: rgb(255, 255, 255);
-border-radius: 15px;
-margin-bottom: 5%;
-margin-right: 4vw;
-margin-top:60px;
-box-shadow: 5px 3px 10px grey;
+  width: 33vw;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin-bottom: 5%;
+  margin-right: 4vw;
+  margin-top: 60px;
+  box-shadow: 5px 3px 10px grey;
 }
 
 .topbox {
   height: 32vw;
-width: 33vw;
-background-color: rgb(255, 255, 255);
-border-radius: 20px;
-margin-bottom: 5%;
-margin-right: 4vw;
+  width: 33vw;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin-bottom: 5%;
+  margin-right: 4vw;
 }
 .size {
   height: 32vw;
-width: 33vw;
+  width: 33vw;
   border-radius: 19px;
   box-shadow: 5px 3px 10px grey;
 }
@@ -295,12 +303,12 @@ header {
 }
 
 .main-nav {
-    height: 90px;
-    background-color: #0c141c;
-    width: 100vw;
-    position: fixed;
-    top: 0;
-    z-index: 1;
+  height: 90px;
+  background-color: #0c141c;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .logo {
@@ -365,7 +373,7 @@ li a.contact:hover {
   float: left;
   line-height: 90px;
   left: 7%;
-  position:fixed;
+  position: fixed;
   display: none;
   cursor: pointer;
 }
@@ -387,28 +395,28 @@ li a.contact:hover {
   width: 270px;
 }
 .faq_item {
-    width: 80vw;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    display:grid;
-    justify-content: center;
-    border: 1px solid #2c3e50;
-    padding: 1rem;
-    margin: 2% 1% 1% 1%;
-  }
+  width: 80vw;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: grid;
+  justify-content: center;
+  border: 1px solid #2c3e50;
+  padding: 1rem;
+  margin: 2% 1% 1% 1%;
+}
 
 .faq_title {
   font-weight: normal;
   display: grid;
-    justify-content: center;
-    outline: none;
+  justify-content: center;
+  outline: none;
 }
 
 .faq_content {
-    font-weight: 100;
-    font-size: 0.95rem;
-    color: #c9c9c9;
-    padding-top: 20px;
+  font-weight: 100;
+  font-size: 0.95rem;
+  color: #c9c9c9;
+  padding-top: 20px;
 }
 
 /* about */
@@ -497,12 +505,12 @@ li a.contact:hover {
   .name {
     font-size: 25px;
   }
-.cart{
-  width: 32px;
-top: 4.5%;
-position: fixed;
-left: 84vw;
-}
+  .cart {
+    width: 32px;
+    top: 4.5%;
+    position: fixed;
+    left: 84vw;
+  }
   .main-nav {
     height: 90px;
     background-color: #0c141c;
@@ -510,16 +518,16 @@ left: 84vw;
     position: fixed;
     top: 0;
     z-index: 1;
-}
+  }
   .boxspacing {
     display: flex;
     justify-content: space-around;
   }
   .size {
     height: 32vw;
-width: 33vw;
-  border-radius: 19px;
-  box-shadow: 5px 3px 10px grey;
+    width: 33vw;
+    border-radius: 19px;
+    box-shadow: 5px 3px 10px grey;
   }
   .onefifty {
     height: 150px;
@@ -527,21 +535,21 @@ width: 33vw;
   }
   .box {
     height: 32vw;
-width: 33vw;
-background-color: rgb(255, 255, 255);
-border-radius: 15px;
-margin-bottom: 5%;
-margin-right: 4vw;
-margin-top:60px;
-box-shadow: 5px 3px 10px grey;
+    width: 33vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-bottom: 5%;
+    margin-right: 4vw;
+    margin-top: 60px;
+    box-shadow: 5px 3px 10px grey;
   }
   .topbox {
     height: 32vw;
-width: 33vw;
-background-color: rgb(255, 255, 255);
-border-radius: 20px;
-margin-bottom: 5%;
-margin-right: 4vw;
+    width: 33vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 5%;
+    margin-right: 4vw;
   }
 
   .hero {
@@ -553,7 +561,7 @@ margin-right: 4vw;
     align-items: center;
     margin-top: 15vw;
   }
-  
+
   .hero::before {
     content: "";
     position: absolute;
@@ -605,6 +613,7 @@ margin-right: 4vw;
     border-radius: 20px;
   }
   .searchbar {
+    height: 3.3rem;  
     margin-left: 16px;
     display: flex;
     align-items: center;
@@ -615,6 +624,7 @@ margin-right: 4vw;
     width: 364px;
     margin-left: 16px;
     border-radius: 50px;
+    
   }
 
   .block {
@@ -632,12 +642,12 @@ margin-right: 4vw;
   }
   .secondline {
     display: block;
-flex: start;
-font-size: 29px;
-font-weight: bold;
-width: 207%;
-padding-left: 22px;
-margin-left: 3vw;
+    flex: start;
+    font-size: 29px;
+    font-weight: bold;
+    width: 207%;
+    padding-left: 22px;
+    margin-left: 3vw;
   }
   .thirdline {
     display: block;
@@ -648,8 +658,8 @@ margin-left: 3vw;
     margin-left: 3vw;
   }
   .locationimg {
-    height: 23px;
-    width: 17px;
+    height: 20px;
+    width: 20px;
     margin-left: 4px;
   }
   .searcher {
@@ -664,7 +674,7 @@ margin-left: 3vw;
     font-weight: bold;
   }
   .searchimg {
-    height: 50px;
+    height: 20px;
     width: 20px;
   }
 }
@@ -788,33 +798,31 @@ main {
 }
 
 .faq_item {
-    width: 80vw;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    display:grid;
-    justify-content: center;
-    border: 1px solid #2c3e50;
-    padding: 1rem;
-    margin: 2% 1% 1% 1%;
-  }
+  width: 80vw;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: grid;
+  justify-content: center;
+  border: 1px solid #2c3e50;
+  padding: 1rem;
+  margin: 2% 1% 1% 1%;
+}
 
 .faq_title {
   font-weight: normal;
   display: grid;
-    justify-content: center;
-    outline: none;
-
+  justify-content: center;
+  outline: none;
 }
-
 
 .faq_content {
   font-weight: 100;
   font-size: 0.95rem;
   color: #c9c9c9;
   font-weight: 100;
-font-size: 0.95rem;
-color: #c9c9c9;
-padding-top: 20px;
+  font-size: 0.95rem;
+  color: #c9c9c9;
+  padding-top: 20px;
 }
 
 /* about */

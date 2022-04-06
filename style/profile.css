@@ -11,10 +11,16 @@
 }
 .listborders{
   border: 1px #2c3e50 solid;
-padding: 9vw 24vw;
+padding: 2rem 19vw;
 border-radius: 1.0rem;
 justify-content: center;
 display: flex;
+margin-top: 0;
+padding-top: 35px;
+padding-bottom: 35px;
+width: 49vw;
+height: 2vw;
+
 }
 html,body {
   max-width: 100%;
@@ -27,6 +33,7 @@ html,body {
     height: 35vw;
     width: 100vw;
     padding-top: 0%;
+    padding-bottom:5rem;
 }
 .list span {
   border: 1px white solid;
@@ -194,7 +201,7 @@ html {
 }
 
 .searcher {
-  borde: 12px #181818 solid;
+  border: 12px #181818 solid;
   background: #181818;
   height: 27px;
   width: 18rem;
@@ -806,6 +813,7 @@ overflow-x: clip;
   padding-top: 0px;
   padding-left: 27px;
   padding-right: 24px;
+  padding-bottom:7%;
 }
 
 /* marker */
@@ -874,20 +882,21 @@ overflow-x: clip;
   display: grid;
     justify-content: center;
     align-items: center;
-    height: 100vw;
     width: 90vw;
     padding-top: 0%;
-    margin: 0 auto;
-    padding: 0 24px 0 27px;
-
+    padding: 0 24px 0rem 27px;
+    
 }
 .listborders{
-  border: 1px  #2c3e50 solid;
-  padding: 2rem 19vw;
+  border: 1px #2c3e50 solid;
+padding: 2rem 19vw;
 border-radius: 1.0rem;
 justify-content: center;
 display: flex;
-margin-top:0;
+margin-bottom: 1rem;
+width: 49vw;
+height: 3vw;
+
 }
 
 

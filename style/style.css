@@ -12,6 +12,7 @@
 html,
 body {
   max-width: 100%;
+  max-height: 100%;
   overflow: hidde
 }
 .sticky {
@@ -21,9 +22,9 @@ body {
 }
 .cart {
   width: 32px;
-  top: 3.4%;
   position: fixed;
   right: 7%;
+  margin-top: -3.8rem;
 }
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
@@ -171,7 +172,7 @@ html {
 }
 
 .searcher {
-  border: 12px #181818 solid;
+  borde: 12px #181818 solid;
   background: #181818;
   height: 27px;
   width: 18rem;
@@ -507,9 +508,8 @@ li a.contact:hover {
   }
   .cart {
     width: 32px;
-    top: 4.5%;
     position: fixed;
-    left: 84vw;
+    margin-top: -3.8rem;
   }
   .main-nav {
     height: 90px;
@@ -614,15 +614,15 @@ li a.contact:hover {
   }
   .searchbar {
     height: 3.3rem;  
-    margin-left: 16px;
+    margin-left: 2.5%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #181818;
-    border-radius: 20px;
+    border-radius: 50px;
     --darkreader-inline-bgcolor: #393e40;
-    width: 364px;
-    margin-left: 16px;
+    width: 78vw;
+    margin-left: 2.5%;
     border-radius: 50px;
     
   }
@@ -658,9 +658,11 @@ li a.contact:hover {
     margin-left: 3vw;
   }
   .locationimg {
-    height: 20px;
-    width: 20px;
-    margin-left: 4px;
+    height: 24px;
+    width: 25px;
+    margin-left: -12px;
+    margin-right:11px;
+    border-right: 5px;
   }
   .searcher {
     height: 30px;
@@ -672,6 +674,8 @@ li a.contact:hover {
     color: white;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
+    padding-right: 16px;
+padding-left: 8px;
   }
   .searchimg {
     height: 20px;

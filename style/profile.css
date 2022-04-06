@@ -9,12 +9,34 @@
   margin: 0;
   border: 0;
 }
+.listborders{
+  border: 1px #2c3e50 solid;
+padding: 9vw 24vw;
+border-radius: 1.0rem;
+justify-content: center;
+display: flex;
+}
 html,body {
   max-width: 100%;
   max-height: 100%;
-  overflow-: hidden;
-  wdth: 100vw;
 }
+.container{
+  display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 35vw;
+    width: 100vw;
+    padding-top: 0%;
+}
+.list span {
+  border: 1px white solid;
+  padding: 10vw 38vw 10vw 38vw;
+}
+
+main{
+  margin-top: 7rem;
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -848,6 +870,26 @@ overflow-x: clip;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
 }
+.container{
+  display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+    width: 90vw;
+    padding-top: 0%;
+    margin: 0 auto;
+    padding: 0 24px 0 27px;
+
+}
+.listborders{
+  border: 1px  #2c3e50 solid;
+  padding: 2rem 19vw;
+border-radius: 1.0rem;
+justify-content: center;
+display: flex;
+margin-top:0;
+}
+
 
 @media (max-width: 360px) {
   .logo {

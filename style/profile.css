@@ -11,16 +11,14 @@
 }
 .listborders{
   border: 1px #2c3e50 solid;
-padding: 2rem 19vw;
-border-radius: 1.0rem;
-justify-content: center;
-display: flex;
-margin-top: 0;
-padding-top: 35px;
-padding-bottom: 35px;
-width: 49vw;
-height: 2vw;
-
+  border-radius: 1.0rem;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 1rem;
+  width: 49vw;
+  height: 2vw;
+  padding-left: 19vw;
+  padding-right: 19vw;
 }
 html,body {
   max-width: 100%;
@@ -32,13 +30,9 @@ html,body {
     align-items: center;
     height: 35vw;
     width: 100vw;
-    padding-top: 0%;
-    padding-bottom:5rem;
+    padding: 0 24px 0rem 27px;
 }
-.list span {
-  border: 1px white solid;
-  padding: 10vw 38vw 10vw 38vw;
-}
+
 
 main{
   margin-top: 7rem;
@@ -884,8 +878,7 @@ overflow-x: clip;
     align-items: center;
     width: 90vw;
     padding-top: 0%;
-    padding: 0 24px 0rem 27px;
-    
+    padding: 0 24px 13rem 27px;
 }
 .listborders{
   border: 1px #2c3e50 solid;
@@ -895,8 +888,7 @@ justify-content: center;
 display: flex;
 margin-bottom: 1rem;
 width: 49vw;
-height: 3vw;
-
+height: 2vw;
 }
 
 

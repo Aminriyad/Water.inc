@@ -47,8 +47,10 @@ html,body {
 
 
 main{
-  margin-top: 7rem;
-  min-height: 63vh;
+margin-bottom:5%;
+margin-top: 7rem;
+min-height: 20rem;
+max-height: 29rem;
 }
 
 .sticky {
@@ -539,6 +541,12 @@ li a.contact:hover {
   }
 }
 @media (max-width: 415px) {
+  main{
+    margin-top: 7rem;
+    margin-bottom: 22rem;
+    height: 4vh;
+    min-height: 23rem;
+  }
   .yoursubs{
   width:48vw;
   padding-right:20vw;

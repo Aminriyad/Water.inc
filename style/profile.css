@@ -40,17 +40,16 @@ html,body {
   display: grid;
     justify-content: center;
     align-items: center;
-    height: 35vw;
-    wdth: 100vw;
     margin: 0 auto;
+    height: 24vw;
 }
 
 
 main{
-margin-bottom:5%;
-margin-top: 7rem;
-min-height: 20rem;
-max-height: 29rem;
+  margin-bottom: 9%;
+  margin-top: 7rem;
+  min-height: 21rem;
+  max-height: 21rem;
 }
 
 .sticky {
@@ -563,6 +562,7 @@ li a.contact:hover {
       align-items: center;
       width: 88vw;
       padding: 0 24px 15rem 27px;
+      height: 24vw;
   }
   .listborders{
     border: 1px #2c3e50 solid;

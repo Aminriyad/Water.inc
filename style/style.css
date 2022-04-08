@@ -175,7 +175,7 @@ html {
   borde: 12px #181818 solid;
   background: #181818;
   height: 27px;
-  width: 18rem;
+  width: 66vw;
   outline: none;
   border: none;
   font-size: 1.4rem;
@@ -667,7 +667,7 @@ margin-top: -3.8rem;
   }
   .searcher {
     height: 30px;
-    width: 266px;
+    width: 66vw;
     outline: none;
     border: none;
     font-size: 1.4rem;

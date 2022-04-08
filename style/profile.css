@@ -9,16 +9,28 @@
   margin: 0;
   border: 0;
 }
+  .yoursubs{
+    width:38vw;
+  padding-right:20vw;
+  border: 1px #2c3e50 solid;
+  padding: 2rem 18vw 2rem 18vw;
+  border-radius: 1.0rem;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 1rem;
+  width: 50vw;
+  height: 2vw;
+  }
+  
 .listborders{
   border: 1px #2c3e50 solid;
   border-radius: 1.0rem;
   justify-content: center;
   display: flex;
   margin-bottom: 1rem;
-  width: 49vw;
+  width: 38vw;
   height: 2vw;
-  padding-left: 19vw;
-  padding-right: 19vw;
+  padding: 2rem 24vw 2rem 24vw;
 }
 html,body {
   max-width: 100%;
@@ -29,13 +41,14 @@ html,body {
     justify-content: center;
     align-items: center;
     height: 35vw;
-    width: 100vw;
-    padding: 0 24px 0rem 27px;
+    wdth: 100vw;
+    margin: 0 auto;
 }
 
 
 main{
   margin-top: 7rem;
+  min-height: 63vh;
 }
 
 .sticky {
@@ -526,6 +539,35 @@ li a.contact:hover {
   }
 }
 @media (max-width: 415px) {
+  .yoursubs{
+  width:48vw;
+  padding-right:20vw;
+  border: 1px #2c3e50 solid;
+  padding: 1.7rem 18vw 2rem 18vw;
+  border-radius: 1.0rem;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 1rem;
+  width: 50vw;
+  height: 4.5vw;}
+  .container{
+    display: grid;
+      justify-content: center;
+      align-items: center;
+      width: 88vw;
+      padding: 0 24px 15rem 27px;
+  }
+  .listborders{
+    border: 1px #2c3e50 solid;
+  padding: 1.7rem 18vw 2rem 18vw;
+  border-radius: 1.0rem;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 1rem;
+  width: 50vw;
+  height: 4.5vw;
+  }
+  
   .name {
     font-size: 25px;
   }
@@ -800,15 +842,7 @@ overflow-x: clip;
   z-index: 1;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 4rem;
-  width: 48rem;
-  padding-top: 0px;
-  padding-left: 27px;
-  padding-right: 24px;
-  padding-bottom:7%;
-}
+
 
 /* marker */
 ::-webkit-details-marker {
@@ -871,24 +905,6 @@ overflow-x: clip;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
-}
-.container{
-  display: grid;
-    justify-content: center;
-    align-items: center;
-    width: 90vw;
-    padding-top: 0%;
-    padding: 0 24px 13rem 27px;
-}
-.listborders{
-  border: 1px #2c3e50 solid;
-padding: 2rem 19vw;
-border-radius: 1.0rem;
-justify-content: center;
-display: flex;
-margin-bottom: 1rem;
-width: 49vw;
-height: 2vw;
 }
 
 

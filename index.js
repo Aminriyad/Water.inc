@@ -37,4 +37,23 @@ let searchable = [
     searchWrapper.classList.add('show');
     resultsWrapper.innerHTML = `<ul>${content}</ul>`;
   }
-  
+  let popup = document.getElementById("popup")
+  function openpopup(){
+      popup.classList.add("open-popup")
+  }
+  function closepopup(){
+      popup.classList.remove("open-popup")
+  }
+
+  const myInput = document.getElementById("my-input");
+  function stepper (btn) {
+  let id =
+  btn.getAttribute("id");
+  let min = myInput.getAttribute("min");
+  let max = myInput.getAttribute("max");
+  let step = myInput.getAttribute("step");
+  let val = myInput.getAttribute("value");
+  let calcStep = (id == "increment") ? (step*1):
+  (step -1);
+  console.log(id, calcStep);
+  }

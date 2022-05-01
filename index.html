@@ -11,8 +11,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 <link rel="shortcut icon" type="img/png"href="img/WDD.jpg">
-
-<script  src="index.js" defer></script>
 </head>
 <body style="background-color:#181818">
     </script>
@@ -66,7 +64,12 @@
             <div style="color:grey">With</div>
             <div>FREE Returns</div>
             <div>& FREE delivery</div>
-            <button class="ordernowbuttom"> Order Now </button>
+            <button class="ordernowbuttom" onclick="openpopup()"> Order Now </button>
+            <div class="popup" id="popup">
+                <img src="img/checkmark.svg" alt="" id="productimage">
+                <p>Your details has been successfully submitted. Thanks!</p> 
+                <button type="button" onclick="closepopup()">OK</button>
+            </div>
         </div>
         <div>
             <div class="topbox"><img  src="img/nestlewater-removebg-preview.png" alt="" class="size"></div>
@@ -321,5 +324,6 @@
 </div>
 <div class="center"><img src="img/logo.svg" alt="" style="width:218px"></div>
 </footer>
+<script  src="index.js" ></script>
 </body>
 </html>

@@ -9,6 +9,16 @@
   margin: 0;
   border: 0;
 }
+.ordernowbuttom{
+  background-color: #181818;
+  border-radius: 25px;
+  padding: 2vh 14vw;
+  margin-top: 0px;
+  border: 1px solid #2c3e50;
+  margin-left: -10px;
+  color: white;
+  margin-top: 15px;
+  }
 html,body {
   max-width: 100%;
   max-height: 100%;
@@ -167,8 +177,10 @@ html {
   border-right: 31px solid #181818;
 }
 .searchimg {
-  height: 20px;
-  width: 20px;
+  height: 22px;
+  width: 22px;
+  DISPLAY: block;
+  BACKGROUND-COLOR: black;
 }
 
 .searcher {
@@ -667,7 +679,7 @@ margin-top: -3.8rem;
   }
   .searcher {
     height: 30px;
-    width: 66vw;
+    width: 64vw;
     outline: none;
     border: none;
     font-size: 1.4rem;
@@ -679,8 +691,10 @@ margin-top: -3.8rem;
 padding-left: 8px;
   }
   .searchimg {
-    height: 20px;
-    width: 20px;
+    height: 22px;
+    width: 22px;
+    DISPLAY: block;
+    BACKGROUND-COLOR: black;
   }
 }
 .hero-button:hover {
